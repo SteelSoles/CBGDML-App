@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        >
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/reportIcon"
+            android:layout_marginBottom="20dp"
+            />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:background="@drawable/border"
+                android:text="Patient name: ABC"
+                android:id="@+id/pname"
+                android:layout_margin="10dp"
+                android:padding="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:background="@drawable/border"
+            android:text="Patient ID: 01"
+            android:id="@+id/pid"
+            android:layout_margin="10dp"
+            android:padding="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:background="@drawable/border"
+            android:text="Doctor ID: 07"
+            android:id="@+id/did"
+            android:layout_margin="10dp"
+            android:padding="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:background="@drawable/border"
+            android:text="Test Result: Glaucoma Positive"
+            android:id="@+id/tresult"
+            android:layout_margin="10dp"
+            android:padding="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:background="@drawable/border"
+            android:text="Severity: 50% "
+            android:id="@+id/severe"
+            android:layout_margin="10dp"
+            android:padding="5dp"/>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
